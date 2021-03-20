@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <!--Custom css-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="section">
+        <div class="left-section" id="left-section">
+            <div class="section-heading">
+                <h2>BMI Calculator</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident neque adipisci ad odit. Id
+                    deserunt, repellat magni voluptas quia sit incidunt doloremque ratione aut iste cumque accusamus
+                    facere ducimus et!</p>
+            </div>
+            <div class="formsection">
+                <div class="input-group">
+                    <div class="label"><label for="firstname" class="formlabel">Age</label></div>
+                    <div class="input-box"><input type="text" id="age" class="inputtext field"></div>
+                </div>
+                <div class="input-group">
+                    <div class="label"><label for="gender" class="formlabel">Gender</label></div>
+
+                    <div class="input-box">
+                        <input type="radio" name="gender" value="Male">
+                        <label for="male">Male</label>
+                        <input type="radio" name="gender" value="Female">
+                        <label for="female">Female</label></div>
+                </div>
+                <div class="input-group">
+                    <div class="label"><label for="height" class="formlabel">Height</label></div>
+                    <div class="input-box"><input type="text" id="hf" class="inputtext field">
+                        <input type="text" id="hi" class="inputtext field"></div>
+                </div>
+                <div class="input-group">
+                    <div class="label"><label for="weight" class="formlabel">Weight</label></div>
+                    <div class="input-box"><input type="text" id="weight" class="inputtext field"></div>
+                </div>
+                <div class="input-group">
+                    <button type="button" class="bmibutton" onclick="getInputValue()">Calculate my BMI</button>
+                </div>
+            </div>
+
+        </div>
+        <div class="right-section" id="right-section">
+            <div class="section-heading">
+                <h2>Result</h2>
+            </div>
+            <div class="result">
+                <div class="result-inner">
+                    <div class="result-label">
+                        <h3>Result</h3>
+                    </div>
+                    <div class="result-text">
+                        <p id="result">N/A</p>
+                    </div>
+                </div>
+                <div class="result-inner">
+                    <div class="result-label">
+                        <h3>Suggestions</h3>
+                    </div>
+                    <div class="result-text">
+                        <p id="suggestions">N/A</p>
+                    </div>
+                </div>
+                <div class="result-inner">
+                    <div class="result-label">
+                        <h3>Comments</h3>
+                    </div>
+                    <div class="result-text">
+                        <p id="comment">N/A</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="jscript/app.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+</body>
+
+</html>

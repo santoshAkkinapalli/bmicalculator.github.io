@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*,
+::after,
+::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.section {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+
+
+}
+
+.left-section {
+    width: 100%;
+}
+
+.right-section {
+    display: none;
+    background-color: lightgrey;
+}
+
+.left-section {
+    background-color: #F6F7EB;
+
+}
+
+/*Left Section*/
+
+.section-heading h2 {
+    background-color: #E94F37;
+    color: white;
+    width: fit-content;
+    margin-top: 2em;
+    padding: 10px 15px;
+}
+
+.section-heading p {
+    padding: 15px;
+}
+
+.input-group {
+    display: flex;
+    width: 100%;
+}
+
+.label {
+    width: 20%;
+}
+
+.input-box {
+    width: 80%;
+}
+
+
+.formsection {
+    padding-top: 55px;
+    width: 500px;
+    margin: auto;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 50%;
+
+}
+
+
+
+.formsection label,
+.result-label {
+    margin-right: 2em;
+    font-weight: 800;
+    font-size: larger;
+}
+
+.input-group button {
+    padding: 15px 15px;
+    margin-top: 15px;
+    background: gold;
+    border-style: none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.field {
+    width: 80%;
+    border: 2px solid rgba(0, 0, 0, 0);
+    outline: none;
+    background-color: rgba(230, 230, 230, 0.6);
+    font-size: 1.1rem;
+    margin-bottom: 22px;
+    transition: .3s;
+    padding: 15px;
+}
+
+.field:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+.result-inner {
+
+    padding-top: 2em;
+    width: 500px;
+    margin: auto;
+    display: flex;
+    margin-top: 5em;
+    justify-content: last baseline;
+    align-items: flex-start;
+    width: 50%;
+}
+
+.result-label {
+    width: 40%;
+}
+
+.result-text {
+    width: 60%;
+}
+
+#result {
+    font-size: 25px;
+    font-weight: 700;
+}
